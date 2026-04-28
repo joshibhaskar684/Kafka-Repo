@@ -1,0 +1,11 @@
+ kafka uuid -window
+
+
+ wsl uuid
+
+wsl cmd to start
+
+
+bin/kafka-server-start.sh config/server.properties
+bin/kafka-storage.sh format -t YOUR_CLUSTER_ID -c config/server.properties --standalone
+bin/kafka-storage.sh random-uuid
